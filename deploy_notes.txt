@@ -1,0 +1,17 @@
+Updates to the WordPress plugin
+#################################
+1) Update the readme.txt file with the new version info and what changed.
+2) Update the version number at the top of the_city_plaza.php file.
+3) Copy the files and directory to [SVN_DIR]/the-city-plaza/trunk/lib/plaza-php/
+* [thecity-plaza-php DIR]/lib*
+* [thecity-plaza-php DIR]/index.php
+
+
+Deploy new WordPress plugin
+#################################
+1) Commit updates
+~> svn ci -m "Updated to 0.8.6"
+2) Release the version by taging the release.
+~> svn cp trunk tags/release-0.8.6
+~> svn ci -m "Released 0.6.8"
+
